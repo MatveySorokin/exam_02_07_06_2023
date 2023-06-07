@@ -1,0 +1,2 @@
+docker build -t serv . 
+docker run -p 33333:33333 -t -i --name exam serv
